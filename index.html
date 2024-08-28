@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="section">
+        <header class="header">
+            <img class="logo-alura" src="assets/logo-alura.jpg" alt="">
+        </header>
+        <div class="container">
+            <section class="input-section">
+                <textarea id="inputText" placeholder="Ingrese el texto aqui" class="textarea"></textarea>
+                <div>
+                    <p class="note">⚠️ Solo letras minúsculas y sin acentos.</p>
+                    <div class="buttons">
+                        <button id="encryptButton" class="primary-button">Encriptar</button>
+                        <button id="decryptButton" class="secondary-button">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="output-section">
+                <div id="outputContainer" class="output-empty">
+                    <img src="assets/hombre-buscando.jpg" height="304px" width="336px" alt="Ningún mensaje encontrado">
+                    <p class="output-text">Ningún mensaje fue encontrado</p>
+                    <p class="output-text-secundario">Ingresa el texto que desees encriptar o
+                        desencriptar.</p>
+                </div>
+                <button id="copyButton" class="copy-button hidden">Copiar</button>
+            </section>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2024 Nicolás Tello. Challenge Alura.</p>
+    </footer>
+</body>
+
+</html>
+
